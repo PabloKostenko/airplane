@@ -13,7 +13,7 @@ struct ObstacleView: View {
     var body: some View {
         Image("cloud")
             .resizable()
-            .frame(width: 50, height: 50)
+            .frame(width: 90, height: 90)
             .position(position)
     }
 }

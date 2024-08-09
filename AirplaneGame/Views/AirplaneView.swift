@@ -14,11 +14,13 @@ struct AirplaneView: View {
     var body: some View {
         Image("airplane")
             .resizable()
-            .frame(width: 75, height: 75)
+            .frame(width: 100, height: 60)
             .position(position)
-            .background(isHit ? Color.red.opacity(0.3) : Color.clear)
-            .onAppear {
-                if isHit {
+            .background(
+                isHit ? Color.green.opacity(0.3) : Color.clear
+            )
+            .onChange(of: isHit) { newValue in
+                if newValue {
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
                         isHit = false
                     }
@@ -32,6 +34,7 @@ struct AirplaneView_Previews: PreviewProvider {
         AirplaneView(position: .constant(CGPoint(x: 50, y: UIScreen.main.bounds.height / 2)), isHit: .constant(false))
     }
 }
+
 
 
 

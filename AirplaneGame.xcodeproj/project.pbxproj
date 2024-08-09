@@ -7,18 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B9DCE962C63DE26000E362E /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DCE952C63DE26000E362E /* GameModel.swift */; };
+		7B9DCE982C63DE60000E362E /* ObstacleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DCE972C63DE60000E362E /* ObstacleView.swift */; };
+		7B9DCE9A2C63DE71000E362E /* FuelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DCE992C63DE71000E362E /* FuelView.swift */; };
+		7B9DCE9C2C63DE85000E362E /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DCE9B2C63DE85000E362E /* MainMenuView.swift */; };
+		7B9DCE9E2C63DEE3000E362E /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DCE9D2C63DEE3000E362E /* SettingsModel.swift */; };
+		7B9DCEA22C63DF1F000E362E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DCEA12C63DF1F000E362E /* CustomButton.swift */; };
+		7B9DCEA62C63E35D000E362E /* collect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DCEA52C63E35D000E362E /* collect.mp3 */; };
+		7B9DCEA82C63E3C6000E362E /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DCEA72C63E3C6000E362E /* hit.mp3 */; };
+		7B9DCEAA2C64B71B000E362E /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DCEA92C64B71A000E362E /* AboutView.swift */; };
+		7B9DCEAC2C64B73A000E362E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DCEAB2C64B73A000E362E /* SettingView.swift */; };
+		7B9DCEB12C64D43A000E362E /* MochiyPopOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DCEB02C64D43A000E362E /* MochiyPopOne-Regular.ttf */; };
+		7B9DCEB52C64E364000E362E /* main_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B9DCEB42C64E364000E362E /* main_sound.mp3 */; };
 		7BA749B62C6396D20006E1EF /* AirplaneGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA749B52C6396D20006E1EF /* AirplaneGameApp.swift */; };
-		7BA749B82C6396D20006E1EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA749B72C6396D20006E1EF /* ContentView.swift */; };
 		7BA749BA2C6396D40006E1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA749B92C6396D40006E1EF /* Assets.xcassets */; };
 		7BA749BD2C6396D40006E1EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA749BC2C6396D40006E1EF /* Preview Assets.xcassets */; };
+		7BA749C42C6396FC0006E1EF /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA749C32C6396FC0006E1EF /* GameView.swift */; };
+		7BA749C62C63971B0006E1EF /* AirplaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA749C52C63971B0006E1EF /* AirplaneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B9DCE952C63DE26000E362E /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		7B9DCE972C63DE60000E362E /* ObstacleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObstacleView.swift; sourceTree = "<group>"; };
+		7B9DCE992C63DE71000E362E /* FuelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelView.swift; sourceTree = "<group>"; };
+		7B9DCE9B2C63DE85000E362E /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		7B9DCE9D2C63DEE3000E362E /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		7B9DCEA12C63DF1F000E362E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		7B9DCEA52C63E35D000E362E /* collect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = collect.mp3; sourceTree = "<group>"; };
+		7B9DCEA72C63E3C6000E362E /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
+		7B9DCEA92C64B71A000E362E /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		7B9DCEAB2C64B73A000E362E /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		7B9DCEB02C64D43A000E362E /* MochiyPopOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MochiyPopOne-Regular.ttf"; sourceTree = "<group>"; };
+		7B9DCEB22C64D462000E362E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7B9DCEB42C64E364000E362E /* main_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = main_sound.mp3; sourceTree = "<group>"; };
 		7BA749B22C6396D20006E1EF /* AirplaneGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirplaneGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA749B52C6396D20006E1EF /* AirplaneGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneGameApp.swift; sourceTree = "<group>"; };
-		7BA749B72C6396D20006E1EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7BA749B92C6396D40006E1EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BA749BC2C6396D40006E1EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BA749C32C6396FC0006E1EF /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		7BA749C52C63971B0006E1EF /* AirplaneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +59,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B9DCEAD2C64BA18000E362E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DCEA12C63DF1F000E362E /* CustomButton.swift */,
+				7BA749C32C6396FC0006E1EF /* GameView.swift */,
+				7B9DCEA92C64B71A000E362E /* AboutView.swift */,
+				7B9DCE992C63DE71000E362E /* FuelView.swift */,
+				7B9DCE972C63DE60000E362E /* ObstacleView.swift */,
+				7B9DCEAB2C64B73A000E362E /* SettingView.swift */,
+				7B9DCE9B2C63DE85000E362E /* MainMenuView.swift */,
+				7BA749C52C63971B0006E1EF /* AirplaneView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7B9DCEB62C64F074000E362E /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DCEB42C64E364000E362E /* main_sound.mp3 */,
+				7B9DCEA72C63E3C6000E362E /* hit.mp3 */,
+				7B9DCEA52C63E35D000E362E /* collect.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		7B9DCEB72C64F08F000E362E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DCEB02C64D43A000E362E /* MochiyPopOne-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		7B9DCEB82C64F687000E362E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7B9DCE9D2C63DEE3000E362E /* SettingsModel.swift */,
+				7B9DCE952C63DE26000E362E /* GameModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		7BA749A92C6396D20006E1EF = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +120,13 @@
 		7BA749B42C6396D20006E1EF /* AirplaneGame */ = {
 			isa = PBXGroup;
 			children = (
+				7B9DCEB22C64D462000E362E /* Info.plist */,
+				7B9DCEB82C64F687000E362E /* Models */,
+				7B9DCEAD2C64BA18000E362E /* Views */,
 				7BA749B52C6396D20006E1EF /* AirplaneGameApp.swift */,
-				7BA749B72C6396D20006E1EF /* ContentView.swift */,
 				7BA749B92C6396D40006E1EF /* Assets.xcassets */,
+				7B9DCEB62C64F074000E362E /* sounds */,
+				7B9DCEB72C64F08F000E362E /* fonts */,
 				7BA749BB2C6396D40006E1EF /* Preview Content */,
 			);
 			path = AirplaneGame;
@@ -126,6 +199,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BA749BD2C6396D40006E1EF /* Preview Assets.xcassets in Resources */,
+				7B9DCEB12C64D43A000E362E /* MochiyPopOne-Regular.ttf in Resources */,
+				7B9DCEA82C63E3C6000E362E /* hit.mp3 in Resources */,
+				7B9DCEB52C64E364000E362E /* main_sound.mp3 in Resources */,
+				7B9DCEA62C63E35D000E362E /* collect.mp3 in Resources */,
 				7BA749BA2C6396D40006E1EF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +214,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BA749B82C6396D20006E1EF /* ContentView.swift in Sources */,
+				7B9DCE9E2C63DEE3000E362E /* SettingsModel.swift in Sources */,
+				7B9DCE962C63DE26000E362E /* GameModel.swift in Sources */,
+				7B9DCE982C63DE60000E362E /* ObstacleView.swift in Sources */,
+				7B9DCEAC2C64B73A000E362E /* SettingView.swift in Sources */,
+				7B9DCE9C2C63DE85000E362E /* MainMenuView.swift in Sources */,
+				7B9DCEAA2C64B71B000E362E /* AboutView.swift in Sources */,
+				7B9DCE9A2C63DE71000E362E /* FuelView.swift in Sources */,
+				7BA749C62C63971B0006E1EF /* AirplaneView.swift in Sources */,
+				7B9DCEA22C63DF1F000E362E /* CustomButton.swift in Sources */,
+				7BA749C42C6396FC0006E1EF /* GameView.swift in Sources */,
 				7BA749B62C6396D20006E1EF /* AirplaneGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +356,7 @@
 				DEVELOPMENT_TEAM = S3W9D9246F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirplaneGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +386,7 @@
 				DEVELOPMENT_TEAM = S3W9D9246F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirplaneGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -52,8 +52,9 @@ struct SettingsView: View {
                     presentationMode.wrappedValue.dismiss()
                 }
             }
+            .padding(.top, 30)
         }
-        .padding(.bottom)
+        .padding()
     }
 }
 
